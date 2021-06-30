@@ -35,6 +35,23 @@ section {
   padding: 2rem 9%;
 }
 
+.heading {
+  text-align: center;
+  padding: 2.5rem 0;
+}
+
+.heading span {
+  font-size: 3.5rem;
+  background: rgba(255, 165, 0, 0.2);
+  color: var(--orange);
+  border-radius: 0.5rem;
+  padding: 0.2rem 1rem;
+}
+
+.heading span.space {
+  background: none;
+}
+
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -293,6 +310,8 @@ header .search-bar-container label:hover {
   background: var(--orange);
 }
 
+/* ----------------- book starts --------------- */
+
 /* ----------------- media queries --------------- */
 
 @media (max-width: 1200px) {
@@ -303,6 +322,10 @@ header .search-bar-container label:hover {
 
 @media (max-width: 991px) {
   header {
+    padding: 2rem;
+  }
+
+  section {
     padding: 2rem;
   }
 }
@@ -339,5 +362,9 @@ header .search-bar-container label:hover {
 @media (max-width: 450px) {
   html {
     font-size: 50%;
+  }
+
+  .heading span {
+    font-size: 2.5rem;
   }
 }
