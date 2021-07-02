@@ -580,6 +580,12 @@ header .search-bar-container label:hover {
   width: 100%;
 }
 
+/* ----------------- brand --------------- */
+
+.brand-container {
+  text-align: center;
+}
+
 /* ----------------- media queries --------------- */
 
 @media (max-width: 1200px) {
